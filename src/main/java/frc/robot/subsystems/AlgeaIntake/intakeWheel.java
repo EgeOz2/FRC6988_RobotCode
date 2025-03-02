@@ -30,13 +30,13 @@ public class intakeWheel extends SubsystemBase {
   public intakeWheel(){
 
     leaderNeo.setInverted(false);//left
-    followerNeo.setInverted(false);//right
-
+    followerNeo.setInverted(true);
+    
     leaderNeo.setNeutralMode(NeutralMode.Brake);
     followerNeo.setNeutralMode(NeutralMode.Brake);
 
     followerNeo.follow(leaderNeo);
-    followerNeo.setInverted(true);
+    
 
   }
 

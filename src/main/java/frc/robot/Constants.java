@@ -45,6 +45,8 @@ public static class SubsystemConstants {
     }
     public static class SRX {
       public static final int AlgInt_Rotation = 0;
+      public static final int CoralShooterLeft=0;
+      public static final int CoralShooterRight=0;
     }
     public static class Victor {
       public static final int AlgInt_LeftNEO = 1;
